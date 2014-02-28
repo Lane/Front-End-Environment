@@ -52,3 +52,8 @@ If you prefer to use the command line to start up / shut down, go to the reposit
   - `vagrant halt`: shuts down the development environment.
   - `vagrant up`: boots up the machine, but doesn't start the dependency installation / web server / grunt task
     - after running `vagrant up` without the `--provision` flag you can run `vagrant ssh` to get to the shell of the dev environment and install any additional software you may need.
+
+## Credits
+
+  - [stubbornella's OOCSS repository](https://github.com/stubbornella/oocss) for startup / stop tools, and introducing me to Vagrant.
+  - 
